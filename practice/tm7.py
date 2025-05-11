@@ -6,6 +6,6 @@ origin = ['javascript', 'php', 'python']
 refer = origin
 copy = origin[:]  # origin.copy()
 
-print('变量(0x%x): %s' % (id(origin), str(origin)))
-print('引用(0x%x): %s' % (id(refer), str(refer)))
-print('复制(0x%x): %s' % (id(copy), str(copy)))
+print('变量(%d): %s' % (id(origin), str(origin)))
+print('引用(%d): %s' % (id(refer), str(refer)))
+print('复制(%d): %s' % (id(copy), str(copy)))
